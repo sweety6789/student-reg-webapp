@@ -19,17 +19,19 @@
 		<!-- <sonar.tests>src/test/java</sonar.tests> -->
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
 		<sonar.exclusions>**/*.css</sonar.exclusions>
+		<sonar.token>squ_f6d57b66a4ff7a15fc98db25fb8932fe555f1040</sonar.token>
+		<sonar.host.url>http://34.227.47.194:9000/</sonar.host.url>
 	</properties>
 
     <distributionManagement>
 		<repository>
-			<id>nexus</id>
-			<url>http://172.31.4.126:8081/repository/student-reg-webapp/</url>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://172.31.4.126:8081/repository/student-reg-webapp-snapshot/</url>
-		</snapshotRepository>
+            <id>nexus</id>
+            <url>http://18.208.115.89:8081/repository/rushitech-maven-release/</url>
+        </repository>
+        <snapshotRepository>
+        	<id>nexus</id>
+        	<url>http://18.208.115.89:8081/repository/rushitech-maven-snapshot/</url>
+        </snapshotRepository>
     </distributionManagement>
 
 	<dependencies>

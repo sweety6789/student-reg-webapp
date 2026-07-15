@@ -19,7 +19,7 @@
 		<!-- <sonar.tests>src/test/java</sonar.tests> -->
 		<sonar.java.binaries>target/classes</sonar.java.binaries>
 		<sonar.exclusions>**/*.css</sonar.exclusions>
-		<sonar.token>squ_f6d57b66a4ff7a15fc98db25fb8932fe555f1040</sonar.token>
+		<sonar.token>squ_8662bd52e45b19348adb5b499b388b79652ce778</sonar.token>
 		<sonar.host.url>http://54.145.50.46:9000/</sonar.host.url>
 	</properties>
 
